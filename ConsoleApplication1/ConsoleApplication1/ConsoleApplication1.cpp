@@ -1,6 +1,17 @@
 #include <stdio.h>
 /* печать таблицы температур по ‘аренгейту
 и ÷ельсию дл€ fahr = 0, 20, ..., 300 */
+
+
+void mskabba (void)
+{
+	int n = 10;
+	typedef int A[n];
+	n = 20;
+	A a;
+	printf("%zu\n", sizeof a / sizeof * a);
+}
+
 int main()
 {
 	int fahr, celsius;
@@ -9,10 +20,13 @@ int main()
 	upper = 300; /* верхн€€ граница */
 	step = 20; /* шаг */
 	fahr = lower;
+
 	while (fahr <= upper) {
 		celsius = 5 * (fahr - 32) / 9;
 		printf("%d\t%d\n", fahr, celsius);
 		fahr = fahr + step;
 	}
+
+
 }
   

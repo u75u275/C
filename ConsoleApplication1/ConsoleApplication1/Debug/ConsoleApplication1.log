@@ -1,2 +1,4 @@
 ﻿  ConsoleApplication1.cpp
-  ConsoleApplication1.vcxproj -> C:\CP\ConsoleApplication1\Debug\ConsoleApplication1.exe
+C:\CP\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(9,16): error C2131: expression did not evaluate to a constant
+C:\CP\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(9,16): message : failure was caused by a read of a variable outside its lifetime
+C:\CP\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(9,16): message : see usage of 'n'
